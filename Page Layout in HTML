@@ -5,4 +5,9 @@ The body of a web Page divided into 3 parts:
    3.Footer: The <footer> tag contains contact and legal information and links.
 <header>,<main> and <footer> elements are nested inside the <body> container tag.
 The main content has divided into 3 parts:
-The <article> container tag repersents self contained piece of content.
+The <article> container tag repersents self-contained piece of content.It’s used for content like news stories, and blog posts.
+The <section> container tag break down the content into parts.
+The web page could split into a seperate sections like introduction, contact information etc.
+The <aside> used for Secondary, additional related content.
+Code:
+    
