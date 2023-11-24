@@ -1,1 +1,25 @@
+With the Style attribute, you can fully customize the Visual Presentation of the Web page.
+Styles like color, size, formatting and more.
+Color:
+     Change the color of text using style attribute.
+     <p style="color:green">Color is Changed</p>
+The Style attribute can be use define properties like color, font size and alignment.
+You can customize the multiple property at the same time.
+Just seperate each property:value seperate with semicolon (;).
+<p style="color:green; text-align:center">Style Text</p>.
+border property has 3 sub-parts like 1.border-width:2px,  2.border-style:solid and 3.border-color:red.
 
+code:
+     <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Attribute</title>
+</head>
+<body>
+    <h1 style="color:red;font-size:25px;text-align:center">Style Attribute</h1>
+    <p style="background-color:azure;color:black;text-align:left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum rem laboriosam sunt quam fugit est numquam expedita odit facilis harum similique assumenda explicabo et beatae, laudantium praesentium autem labore minus?</p>
+    <button style="border:2px dotted red;background-color: rgb(83, 54, 17);color:rgb(118, 101, 115);font-size: 20px;">Submit</button>
+</body>
+</html>
