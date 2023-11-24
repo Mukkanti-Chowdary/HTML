@@ -10,4 +10,92 @@ The <section> container tag break down the content into parts.
 The web page could split into a seperate sections like introduction, contact information etc.
 The <aside> used for Secondary, additional related content.
 Code:
-    
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Layout</title>
+    <link rel="Icon" href="login.png"> //change href attribute value.
+    <style>
+        h1{
+            text-shadow:2px 2px 2px red;
+        }
+        h2{
+            text-shadow:2px 2px 2px orange;
+            color:blue;
+        }
+        p{
+            width:70%;
+            padding-left:14%;
+            word-spacing: 2px;
+            color:aliceblue;
+        }
+        img{
+            padding:10px;
+            border-radius:7%;    
+        }
+        #one{
+            background-color:darkgreen;
+            width:70%;
+            border-radius:7%;
+        }
+        nav{
+            padding-left:30%;
+        }
+        body{
+            text-align:center;
+            background-color: grey;
+        }
+        nav a{
+            margin:5px;
+            padding:0px;
+            font-size:25px;
+            color:chocolate;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rishabh Pant</h1>
+        <nav>
+            <div id="one">
+                <a href="#">Home</a>
+                <a href="#about">About us</a>
+                <a href="#career">Career</a>
+                <a href="#struggle">Struggle</a>
+                <a href="#Records">Records</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <section>
+                <img src="images/rishabh-pant-ani.webp">//Change the image address
+            </section>
+            <section>
+                <h2 id="about">About Us</h2>
+                <p>Rishabh Rajendra Pant (born 4 October 1997) is an Indian international cricketer who plays for the Indian cricket team as a wicket-keeper batter. Having played all formats for India, he is best known for his consistency to score runs in Test cricket. Pant plays for Delhi in domestic cricket and captains Delhi Capitals in the Indian Premier League.[3] He was the vice-captain of the India U-19 team that was runner up at the 2016 Under-19 Cricket World Cup</p>
+            </section>
+            <section>
+                <h2 id="career">Career</h2>
+                <p>Pant made his first-class debut on 22 October 2015 in the 2015–16 Ranji Trophy[13] and his List A debut the next month in the 2015–16 Vijay Hazare Trophy.Pant was purchased by the Delhi Daredevils ahead of the 2016 Indian Premier League on the same day he scored a century for India U-19 team in the 2016 Under-19 Cricket World Cup, guiding them into the semi-finals. In January 2017, Pant was named in India's Twenty20 International (T20I) squad for their series against England.[32] He made his debut for India in the third T20I against England at the M. Chinnaswamy Stadium, Bangalore on 1 February 2017.</p>
+            </section>
+            <section>
+                <h2 id="struggle">Struggle</h2>
+                <p>On 30 December 2022, Pant was involved in a near-fatal car crash on the Delhi-Dehradun highway near Roorkee.[80] He was cleared of any serious injury and remained stable despite sustaining injuries to his head, back and feet including two cuts on his forehead and a ligament tear to his right knee. He also hurt his right wrist, ankle and toe and suffered abrasion injuries to his back. The car reportedly caught fire when it collided with a central divider on the road. The incident was reported to have taken place at 5.30am and the car skidded for about 200 metres before hitting the road divider.</p>
+            </section>
+            <section>
+                <h2 id="Records">Records</h2>
+                <p>Pant scored an unbeaten 128 from 63 balls against the Sunrisers Hyderabad, making it the then highest individual score by an Indian cricketer in IPL history. Pant became the fastest wicket-keeper for India to reach 1,000 runs in Test cricket. The Gabba where Australia had not been defeated since 1988.[73] Pant put in a match-winning performance on day five, as India chased down a target of 328 in the fourth innings,[74] scoring an unbeaten 89.</p>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <a href="#top"><h2>Top</h2></a>
+        <h3><a href="https://www.instagram.com/rishabpant/" target="_blank">Instagram Contact</a></h3>
+    </footer>
+</body>
+</html>
