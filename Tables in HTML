@@ -1,5 +1,5 @@
 Tables are used to represents the data in rows and Columns format.
-We can Tables using the <table> container tag.
+We can add Tables using the <table> container tag.
 We can add rows to a table using <tr> Container tag. The <tr> tag nested inside the <table> tag.
 we can add cells with the <td> (table data) container tag. The <td> tag nested inside the <tr> tag.
 With the style attribute we can add the border to the table, rows and cells.
