@@ -20,3 +20,25 @@ Example:
     <td>Alex</td><td>29</td>
   </tr>
 </table>
+
+code:
+<html>
+    <head>
+        <title>
+            Tables
+        </title>
+    </head>
+    <body>
+        <table border="2" align="center">
+            <tr>
+                <td bgcolor="Blue">Blue</td>
+                <td bgcolor="Green">Green</td>
+                <td bgcolor="Yellow">Yellow</td>
+            </tr>
+            <tr>
+                <td bgcolor="Orange">Orange</td>
+                <td rowspan="2" bgcolor="Brown">Black</td>
+            </tr>
+        </table>
+    </body>
+</html>
