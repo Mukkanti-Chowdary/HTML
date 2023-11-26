@@ -1,0 +1,39 @@
+Grouping Different Elements in HTML code make up your page faster to load easier to customize and Maintain.
+The <div> tag is a container tag that keeps your page organized.
+Div Element is a block-level Element take up the full of available width.
+The style in a <div> container will apply to all its nested elements unless you give them their own.
+code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+            color:brown;
+            font-size:20px;
+            border:2px solid;
+        }
+        .two{
+            color:blueviolet;
+            font-size:25px;
+            border:3px solid;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        <h2>Div Class One</h2>
+        <p>Grouping Different HTML elements code make your faster and load easier to maintain and Custom</p>
+        <h3>Heading h3</h3>
+        <p style="color:orangered">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo illo impedit architecto voluptas dignissimos dolores corporis molestias qui necessitatibus, placeat ex nisi rem unde accusamus repudiandae soluta quisquam neque doloribus!</p>
+    </div>
+    <div class="two">
+        <h2>Div Class One</h2>
+        <p>Grouping Different HTML elements code make your faster and load easier to maintain and Custom</p>
+        <h3>Heading h3</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo illo impedit architecto voluptas dignissimos dolores corporis molestias qui necessitatibus, placeat ex nisi rem unde accusamus repudiandae soluta quisquam neque doloribus!</p>
+    </div>
+</body>
+</html>
