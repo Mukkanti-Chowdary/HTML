@@ -1,0 +1,21 @@
+Every HTML element is either inline or Block-level Elements.
+Block-Level Elements always starts from a new Line.
+Inline Elements don't start on a new Line.
+Block elements take up full of the avaliable width.
+Inline elements takes up width as necessary as possible.
+Inline Elements are nested inside the block-level Elements.
+
+code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Inline and Block-level Elements</h1>
+    <div style="background-color: red;">A</div>
+    <p><span style="background-color: blue;">B</span></p>
+</body>
+</html>
