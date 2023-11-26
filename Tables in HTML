@@ -1,0 +1,22 @@
+Tables are used to represents the data in rows and Columns format.
+We can Tables using the <table> container tag.
+We can add rows to a table using <tr> Container tag. The <tr> tag nested inside the <table> tag.
+we can add cells with the <td> (table data) container tag. The <td> tag nested inside the <tr> tag.
+With the style attribute we can add the border to the table, rows and cells.
+Tables usually includes the header.
+The header is special row at the top of the table used to label each column.
+using <th> tag can add the header at each cell.
+To merge two or more rows, use the rowspan attribute
+To merger two or more cells, use the colspan attribute.
+Example:
+<table>
+  <tr>
+    <th>Name</th><th>Age</th>
+  </tr>
+  <tr>
+    <td>Amy</td><td>38</td>
+  </tr>
+  <tr>
+    <td>Alex</td><td>29</td>
+  </tr>
+</table>
