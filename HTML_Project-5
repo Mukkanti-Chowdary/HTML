@@ -1,0 +1,21 @@
+Radio buttons are used when the user want to select the one among the group.
+group them undee the same name.
+we can Pre-select the radio button option and also we can disable the radio button option.
+Code:
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Radio Buttons Lab</title>
+	</head>
+	<body>
+		<!--code inside the 'wrapper' div -->
+		<div id="wrapper">
+			<input type = "radio" name = "radio" id="option1">
+			<label>Male</label>
+			<input type = "radio" name = "radio" id="option2" checked>
+			<label>Female</label>
+			<input type = "radio" name = "radio" id=option3 disabled>
+			<label>Others</label>
+		</div>
+	</body>
+</html>
