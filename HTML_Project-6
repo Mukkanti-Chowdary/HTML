@@ -1,0 +1,26 @@
+A div (short for division) is a block-level element that is often used as a container for other HTML elements. 
+A span is an inline element, which means it takes up only as much width as necessary and is typically used for small chunks of HTML inside a line of text.
+
+code:<!DOCTYPE html>
+<html>
+	<head>
+		<title>Div and Span Elements</title>
+		<style>
+			#outer-div{
+				color:blue;
+				background-color: lightgray;
+			}
+			#highlight{
+				background-color: yellow;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Write your code here -->
+		<div id="outer-div">
+			<p id="inner-para">
+				<span id="highlight"></span>
+			</p>
+		</div>
+	</body>
+</html>
